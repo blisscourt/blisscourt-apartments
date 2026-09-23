@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  font-family: "Instrument Sans", sans-serif;
+}
+
+
+.rdp {
+    --rdp-cell-size: 44px;
+    --rdp-accent-color: #b08d44;
+    --rdp-background-color: #b08d4420;
+    font-family: inherit;
+}
+
+.rdp-day_selected {
+    background: #b08d44 !important;
+}
+
+.rdp-day_range_middle {
+    background: rgba(176,141,68,.18);
+}
+
+.rdp-day_range_end,
+.rdp-day_range_start {
+    background: #b08d44 !important;
+    color: white;
+}
+
+
+@media (max-width:768px){
+
+.rdp{
+    --rdp-cell-size:38px;
+    font-size:.85rem;
+}
+
+.rdp-month{
+    width:100%;
+}
+
+.rdp-table{
+    width:100%;
+}
+}
