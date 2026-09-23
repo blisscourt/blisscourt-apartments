@@ -103,6 +103,12 @@ const Footer = () => {
           </p>
         </div>
 
+        <div className="pt-8 pb-20 flex flex-col sm:flex-row justify-between items-end gap-4 text-[13px] font-bold text-gray-400">
+          <p className="tracking-wide text-center sm:text-right">
+             Powered by: Eminex Global Services
+          </p>
+        </div>
+
         {/* whatsapp icon  */}
         <a
           href="https://wa.me/2348152067480?text=Date%3A%0AApartment%20Type%3A%0AAdults%3A%0AChildren%3A%0ACheck%20in%3A%0ACheck%20out%3A%0APhone%20Number%3A"
