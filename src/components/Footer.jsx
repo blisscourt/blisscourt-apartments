@@ -105,7 +105,9 @@ const Footer = () => {
 
         <div className="pt-8 pb-20 flex flex-col sm:flex-row justify-between items-end gap-4 text-[13px] font-bold text-gray-400">
           <p className="tracking-wide text-center sm:text-right">
-             Powered by: Eminex Global Services
+             Powered by: <a href="https://share.google/7rVu0dQArozoLFq0N" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">
+              Eminex Global Services
+            </a>
           </p>
         </div>
 
